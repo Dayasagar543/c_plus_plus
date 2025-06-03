@@ -1,2 +1,0 @@
-C++ is case sensitive languagee and all other programming languages 
-non case sensitive are mysql and HTML
