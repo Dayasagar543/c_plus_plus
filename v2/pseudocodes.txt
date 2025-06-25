@@ -1,0 +1,1 @@
+understanding the sudo code and the blocks used and some problems with pseudocodes
