@@ -1,0 +1,15 @@
+vectors are like arrays but they are flexible and not just fixed length  are implemented in stl (standard template library) which 
+are used for competitive exams and interview where you donot need to create a data structures from the base just solve the problems 
+thats all.
+
+vectors
+queus
+stack
+set
+
+
+
+
+using header files 
+#include <vectors>
+#include <bits/c++.h>
