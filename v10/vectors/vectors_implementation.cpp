@@ -28,10 +28,15 @@ int main()
     cout << "the push back @ 1st index " << vec2[1] << endl;
     vec2.pop_back(); // pop_back
     cout << "the pop back is " << vec2[0] << endl;
-    cout << "the size is " << vec2.size() << endl; // size function
-    cout << "the index of value is " << vec2.at(3) << endl; // size function
-    cout <<"printing the front values "<< vec2.front() << endl;                  // printing the front values
-    cout <<"printing the back values  "<< vec2.back() << endl;                   // printing the back values
+    cout << "the size is " << vec2.size() << endl;                // size function
+    cout << "the index of value is " << vec2.at(3) << endl;       // size function
+    cout << "printing the front values " << vec2.front() << endl; // printing the front values
+    cout << "printing the back values  " << vec2.back() << endl;  // printing the back values
 
+    vector<char> vec3 = {'a', 'b', 'c'};
+    cout << "prinitng the characters using the vectors concept\n";
+    for(char value : vec3){
+        cout << value << endl;
+    }
     return 0;
 }
