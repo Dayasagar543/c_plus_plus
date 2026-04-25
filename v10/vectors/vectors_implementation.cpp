@@ -38,5 +38,18 @@ int main()
     for(char value : vec3){
         cout << value << endl;
     }
+
+    vector<int> vec4(5, 0);
+    for (int i = 0; i < 5;i++){
+         vec4[i] = i + 1;
+    }
+    cout << "printing the value of the vector four \n";
+    for(int i : vec4){
+        cout << i << endl;
+    }
+    cout << "printing the values of front and back of the vectors " << endl;
+    cout << vec4.front() << endl;
+    cout << vec4.back() << endl;
+    cout << vec4.at(1) << endl;
     return 0;
 }
