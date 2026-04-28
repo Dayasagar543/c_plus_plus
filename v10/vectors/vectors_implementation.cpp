@@ -35,21 +35,49 @@ int main()
 
     vector<char> vec3 = {'a', 'b', 'c'};
     cout << "prinitng the characters using the vectors concept\n";
-    for(char value : vec3){
+    for (char value : vec3)
+    {
         cout << value << endl;
     }
 
     vector<int> vec4(5, 0);
-    for (int i = 0; i < 5;i++){
-         vec4[i] = i + 1;
+    for (int i = 0; i < 5; i++)
+    {
+        vec4[i] = i + 1;
     }
     cout << "printing the value of the vector four \n";
-    for(int i : vec4){
+    for (int i : vec4)
+    {
         cout << i << endl;
     }
     cout << "printing the values of front and back of the vectors " << endl;
     cout << vec4.front() << endl;
     cout << vec4.back() << endl;
     cout << vec4.at(1) << endl;
+
+    // capacity of the vectors
+    vector<int> vec5;
+    cout << "trying to observe the size changes in the vector when the values are pushed back " << endl;
+    cout << vec5.size() << endl;
+    vec5.push_back(5);
+    cout << "the capacity of the vectors is " << endl;
+    cout << vec5.capacity() << endl;
+    cout << vec5.size() << endl;
+    vec5.push_back(6);
+    cout << "the capacity of the vectors is " << endl;
+    cout << vec5.capacity() << endl;
+    cout << vec5.size() << endl;
+    vec5.push_back(5);
+    cout << "the capacity of the vectors is " << endl;
+    cout << vec5.capacity() << endl;
+    vec5.push_back(5);
+    cout << vec5.size() << endl;
+    cout << "the capacity of the vectors is " << endl;
+    cout << vec5.capacity() << endl;
+    vec5.push_back(5);
+    cout << vec5.size() << endl;
+    cout << "the capacity of the vectors is " << endl;
+    cout << vec5.capacity() << endl;
+
     return 0;
 }
