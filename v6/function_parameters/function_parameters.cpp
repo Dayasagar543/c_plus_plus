@@ -12,18 +12,22 @@ int get_age(int age)
     }
     return age;
 }
+//sum of 2 numbers 
 int sum(int a, int b)
 {
     return a + b;
 }
+//min of numbers
 int min_of(int a, int b)
 {
     return a < b ? a : b;
 }
+//max of numbers
 int max_of(int a, int b)
 {
     return a > b ? a : b;
 }
+//sum of n numbers 
 int sum_n(int n)
 {
     int sum = 0;
@@ -33,6 +37,8 @@ int sum_n(int n)
     }
     return sum;
 }
+
+//factorial
 int fact_n(int n)
 {
     int fact = 1;
@@ -42,6 +48,8 @@ int fact_n(int n)
     }
     return fact;
 }
+
+//sum of the digits of the number
 int sum_digits(int number)
 {
     int sum = 0;
@@ -52,6 +60,7 @@ int sum_digits(int number)
     }
     return sum;
 }
+
 // binomial factorial
 int nCr(int n, int r)
 {
