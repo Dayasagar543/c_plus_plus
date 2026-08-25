@@ -6,6 +6,10 @@ void swap(int &a , int &b);
 int main()
 {
     vector<int> vec = {1, 2, 3, 4, 5, 6, 7};
+    for(int value:vec){
+        cout<<value<<endl;
+    }
+    cout<<"\n"<<endl;
     vector<int> rev_vec=reverse(vec);
     for(int i=0;i<rev_vec.size()-1;i++){
         cout<< rev_vec[i]<<endl;
